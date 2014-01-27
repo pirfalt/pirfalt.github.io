@@ -1,3 +1,7 @@
+function insertAfter(referenceNode, newNode) {
+  referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+}
+
 function main() {
 	var shouldBrowserify = document.createElement('P')
 	shouldBrowserify.textContent = [
@@ -5,6 +9,6 @@ function main() {
 		'site build script.'
 	].join(' ')
 
-	document.body.appendChild(shouldBrowserify)
+	insertAfter(document.getElementsByTagName('H1')[0], shouldBrowserify)
 }
 main()
