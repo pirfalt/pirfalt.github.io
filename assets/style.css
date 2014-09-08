@@ -1,4 +1,102 @@
+/* Base */
 html {
-	font-family: verdana, sans-serif;
-	background-color: #f3f3f3;
+	font-family: georgia, sans-serif;
+	background-color: #fefcfe;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 2em 0px 0.7em;
+}
+
+h1 {
+  font-size: 3em;
+  font-style: italic;
+  font-
+}
+h2 {
+  font-size: 2em;
+  border-bottom: 1px solid #484848;
+}
+h3 {
+  font-size: 1.3em;
+}
+
+header, footer {
+  text-align: center;
+}
+
+footer {
+  border-top-style: solid;
+  border-top-width: thin;
+  margin: auto;
+}
+
+
+/* Helpers */
+.mainblock {
+  padding: 2em;
+  overflow: auto;
+}
+
+.floatright {
+  float: right;
+  margin-left: 1em;
+}
+
+.floatleft {
+  float: left;
+  maring-right; 1em;
+}
+
+
+/* Header */
+header h1 {
+  font-size: 4em;
+  margin: 0.5em;
+  font-variant: small-caps;
+  font-style: normal;
+}
+
+header {
+  background-color: #022e00;
+  color: #f5f5f5;
+}
+
+/* Main */
+#main {
+  max-width: 40em;
+  margin: auto;
+}
+
+/* Table (taken from github, the readme css)*/
+table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+  border-collapse: collapse;
+}
+
+table th {
+  font-weight: bold;
+}
+
+table th,
+table td {
+  padding: 9px 13px;
+  border: 1px solid #777;
+}
+
+table tr {
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
 }
