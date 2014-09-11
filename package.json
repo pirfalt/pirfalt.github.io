@@ -1,0 +1,26 @@
+{
+  "name": "pirfalt.github.io",
+  "version": "0.0.0",
+  "description": "My webpage",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pirfalt/pirfalt.github.io.git"
+  },
+  "author": "Emil Pirfält <emil.pirfalt@gmail.com>",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/pirfalt/pirfalt.github.io/issues"
+  },
+  "homepage": "https://github.com/pirfalt/pirfalt.github.io",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "gulp-livereload": "^2.1.1",
+    "gulp": "^3.8.8"
+  }
+}
