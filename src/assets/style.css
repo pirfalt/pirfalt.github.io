@@ -27,6 +27,10 @@ h3 {
   font-size: 1.3em;
 }
 
+pre {
+  white-space: pre-wrap
+}
+
 
 /* Helpers */
 .mainblock {
