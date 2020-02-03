@@ -22,7 +22,7 @@
   "devDependencies": {
     "gulp-livereload": "^2.1.1",
     "gulp": "^3.8.8",
-    "ecstatic": "^0.5.4",
+    "ecstatic": "^4.1.2",
     "gulp-watch": "^1.0.3",
     "gulp-util": "^3.0.1",
     "gulp-changed": "^1.0.0",
