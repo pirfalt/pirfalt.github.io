@@ -9,10 +9,14 @@ body {
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 2em 0 0.7em;
 }
-
 
 /* Text */
 h1 {
@@ -27,10 +31,13 @@ h3 {
   font-size: 1.3em;
 }
 
-pre {
-  white-space: pre-wrap
+a {
+  color: black;
 }
 
+pre {
+  white-space: pre-wrap;
+}
 
 /* Helpers */
 .mainblock {
@@ -48,7 +55,6 @@ pre {
   margin-right: 1em;
 }
 
-
 /* Page Header */
 .page-header {
   background-color: #022e00;
@@ -63,6 +69,10 @@ pre {
   font-style: normal;
 }
 
+.page-header a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
 
 /* Page Footer */
 .page-footer {
@@ -71,13 +81,11 @@ pre {
   border-top-width: thin;
 }
 
-
 /* Main */
 .page-main {
   max-width: 60em;
   margin: auto;
 }
-
 
 /* Table (taken from github, the readme css)*/
 table {
